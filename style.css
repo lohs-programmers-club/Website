@@ -1,0 +1,74 @@
+html{
+    font-size: 110%;
+}
+body {text-align: center;}
+
+h3 {max-width: 20%; margin: 1em auto; text-align: left;}
+
+h1 {font-family: 'Courier New', Courier, monospace; font-weight:bold;}
+h2, h3 {font-family: Arial;}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 238);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(0, 0, 238);
+}
+
+/* mouse over link */
+a:hover {
+    font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    color: rgb(0, 0, 238);
+}
+
+
+/*menu*/
+ul {
+    list-style-type: none;
+    font-family: Arial;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+li {
+    padding: 5px;
+    display: inline;
+
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+
+}
+
+#selected {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
+
+
+
+table {margin: 0 auto; background: black}
+tr, td {border: 1px solid black; background: white; padding: 5px;}
+
+.doc::before {
+    content:url(https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico);
+}
+
+.sheet::before {
+    content:url(https://ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png);
+}
