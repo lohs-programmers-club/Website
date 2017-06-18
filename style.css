@@ -3,7 +3,7 @@ html{
 }
 body {text-align: center;}
 
-h3 {max-width: 20%; margin: 1em auto; text-align: left;}
+/*h3 {max-width: 20%; margin: 1em auto; text-align: left;}*/
 
 h1 {font-family: 'Courier New', Courier, monospace; font-weight:bold;}
 h2, h3 {font-family: Arial;}
@@ -66,27 +66,14 @@ ol#rules{
     /*list-style-type: none;*/
     
 }
-
-ol#rules li {
+ul#roles{
+    list-style-type: none;
+    
+}
+ol#rules li, ul#roles li{
     font-weight: bold;
     text-align: left;
 }
-ol#rules p {
+ol#rules p, ul#roles p{
     text-align: left;
-}
-
-/* poll table */
-/*
-
-table {margin: 0 auto; background: black}
-tr, td {border: 1px solid black; background: white; padding: 5px;}
-
-*/
-/* google doc icons */
-.doc::before {
-    content:url(https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico);
-}
-
-.sheet::before {
-    content:url(https://ssl.gstatic.com/docs/spreadsheets/favicon_jfk2.png);
 }
