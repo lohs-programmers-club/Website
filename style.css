@@ -30,7 +30,7 @@ a:active {
 
 
 /*menu*/
-ul {
+header ul {
     list-style-type: none;
     font-family: Arial;
     text-align: center;
@@ -39,7 +39,7 @@ ul {
     font-size: 1.5em;
 }
 
-li {
+header li {
     padding: 5px;
     display: inline;
 
@@ -47,12 +47,12 @@ li {
     margin-right: 0;
     font-weight: bold;
 }
-li a {
+header li a {
     text-decoration: none;
 
 }
 
-#selected {
+header #selected {
     font-weight: bold;
     text-decoration: underline;
     color: black;
@@ -61,10 +61,28 @@ li a {
 }
 
 
+/*rules*/
+ol#rules{
+    /*list-style-type: none;*/
+    
+}
+
+ol#rules li {
+    font-weight: bold;
+    text-align: left;
+}
+ol#rules p {
+    text-align: left;
+}
+
+/* poll table */
+/*
 
 table {margin: 0 auto; background: black}
 tr, td {border: 1px solid black; background: white; padding: 5px;}
 
+*/
+/* google doc icons */
 .doc::before {
     content:url(https://ssl.gstatic.com/docs/documents/images/kix-favicon6.ico);
 }
