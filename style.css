@@ -64,11 +64,11 @@ header #selected {
 /*rules*/
 ol#rules{
     /*list-style-type: none;*/
-    
+
 }
-ul#roles{
+ul#roles, ul#faq{
     list-style-type: none;
-    
+
 }
 ol#rules li, ul#roles li{
     font-weight: bold;
